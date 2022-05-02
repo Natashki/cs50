@@ -11,7 +11,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int main(void){
+void main(void){
     double sum_back = get_double("Hi! How much change is owned? ");
 
 
