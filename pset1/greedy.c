@@ -13,10 +13,7 @@
 
 int main(void){
     double sum_back = get_double("Hi! How much change is owned? ");
-    int m25 = 0;
-    int m10 = 0;
-    int m5 = 0;
-    int m1 = 0;
+
 
 
     while(sum_back < 0){
@@ -27,10 +24,10 @@ int main(void){
     int cent = sum_back * 100;
 
 
-    m25 = cent/25;
-    m10 = (cent - m25 *25)/10;
-    m5 =(cent - m25*25 -m10*10)/5;
-    m1 = cent - m25*25 - m10*10 - m5*5 ;
+    int m25 = cent/25;
+    int m10 = (cent - m25 *25)/10;
+    int m5 =(cent - m25*25 -m10*10)/5;
+    int m1 = cent - m25*25 - m10*10 - m5*5 ;
 
 
 
