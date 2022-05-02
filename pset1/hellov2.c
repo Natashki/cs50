@@ -8,7 +8,7 @@ void test(void){
     printf("helo everyone!\n");
 }
 
-int main(void){
+void main(void){
     test();
     printf("%d\n", sqr(5));
 }
