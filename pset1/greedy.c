@@ -26,7 +26,7 @@ void main(void){
 
     int m25 = cent/25;
     int m10 = (cent - m25 *25)/10;
-    int m5 =(cent - m25*25 -m10*10)/5;
+    int m5 = (cent - m25*25 -m10*10)/5;
     int m1 = cent - m25*25 - m10*10 - m5*5 ;
 
 
