@@ -17,7 +17,7 @@ int main(void){
 
 
     while(sum_back < 0){
-        sum_back = get_float("How much change is owned&? ");
+        sum_back = get_double("How much change is owned&? ");
 
     }
 
